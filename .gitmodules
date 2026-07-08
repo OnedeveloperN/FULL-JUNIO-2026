@@ -1,0 +1,6 @@
+[submodule "dia04/Git-dia04"]
+	path = dia04/Git-dia04
+	url = https://github.com/OnedeveloperN/Git-dia04
+[submodule "dia04/Trabajo-en-equipo"]
+	path = dia04/Trabajo-en-equipo
+	url = https://github.com/cei-equipo-dia04/Trabajo-en-equipo
