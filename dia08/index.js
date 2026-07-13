@@ -1,7 +1,7 @@
 require('dotenv').config();
 const express = require('express');
 const connectDB = require('./config/db');
-const productoRoutes = require('./routers/producto.routes');
+const productoRoutes = require('./routers/productos');
 const usuarioRoutes = require('./routers/users');
 const pedidoRoutes = require('./routers/pedidos');
 
