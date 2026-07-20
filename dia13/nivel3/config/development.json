@@ -1,0 +1,6 @@
+{
+    "port": 3001,
+    "db": {
+        "name": "miapp_dev"
+    }
+}
