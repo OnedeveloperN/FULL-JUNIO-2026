@@ -31,6 +31,19 @@ function App() {
     };
   return (
     <>
+      <h1>Task List</h1>
+      <ul>
+        {tasks.map(task => (
+          <li key={task.id}>{task.name} - {task.description}</li>
+        ))}
+      </ul>
+
+      <h2>Add Task</h2>
+      <form onSubmit={handleAddTask}>
+        <input type="text" placeholder="Task Name" required />
+        <input type="text" placeholder="Task Description" required />
+        <button type="submit">Add Task</button>
+      </form> 
 
     </>
   )

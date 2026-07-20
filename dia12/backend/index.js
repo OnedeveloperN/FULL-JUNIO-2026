@@ -6,7 +6,7 @@ const verify = require('./middlewares/verify');
 const notFound = require('./middlewares/not-found');
 
 
-app.use(cors("*")); /** poner el dominio de la api */
+app.use(cors("*"));
 app.use(logger);
 app.use(express.static('public'));
 
